@@ -11,7 +11,20 @@
 			 url('existence-light-webfont.ttf') format('ttf'), /* Pretty Modern Browsers */
 }
 
+@font-face {
+  font-family: 'avenir next';
+  src:"fonts/Avenir Next.ttc"
+}
 
+@font-face {
+  font-family: 'avenir book';
+  src:"fonts/AvenirLTProBook.otf"
+}
+
+@font-face {
+  font-family: 'avenir light';
+  src:"fonts/AvenirLTProLight.otf"
+}
 
 #list li{
 	height: 306px;
@@ -60,25 +73,27 @@
  margin-top: 300px;
  margin-bottom: 40px;
  list-style-type: none;
- background-color: #6d6e6e;
 
  }
 
 #navbar ul li {
  display:inline;
  float:left;
- margin-left:45px;
+ margin-left:38px;
  margin-right:20px;
- font-family: 'existence';
- font-size:20px;
+ font-family: 'avenir light';
+ font-weight:bold;
+ color: #6d6e6e;
+ font-size:23px;
  }
 
 #navbar ul li a {
  display: block;
+ align: center;
  text-decoration: none;
  text-align:center;
- width:160px;
- color: #fff;
+ width:170px;
+   color: #6d6e6e;
  }
 
 #navbar ul li a:hover {

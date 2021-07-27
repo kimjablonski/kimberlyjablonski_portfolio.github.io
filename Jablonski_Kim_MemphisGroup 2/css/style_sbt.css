@@ -20,26 +20,27 @@
  margin-top: 300px;
  margin-bottom: 40px;
  list-style-type: none;
- background-color: #6d6e6e;
-
  }
 
-#navbar ul li {
- display:inline;
- float:left;
- margin-left:45px;
- margin-right:20px;
- font-family: 'existence';
- font-size:20px;
- }
+ #navbar ul li {
+  display:inline;
+  float:left;
+  margin-left:3.5%;
+  margin-right:20px;
+  font-family: 'existence';
+  font-weight:bold;
+  font-size:23px;
+	 color: #6d6e6e;
+  }
 
-#navbar ul li a {
- display: block;
- text-decoration: none;
- text-align:center;
- width:160px;
- color: #fff;
- }
+ #navbar ul li a {
+  display: block;
+  align: center;
+  text-decoration: none;
+  text-align:center;
+  width:170px;
+   color: #6d6e6e;
+  }
 
 #navbar ul li a:hover {
  color: #000;
